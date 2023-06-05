@@ -1,4 +1,4 @@
-# SAGA Choreography Restaurant - NOT Completed yet
+# SAGA Choreography Restaurant and gRPC - NOT Completed yet
 
 1. Tech stack and Architecture
 <img src="img/tech-stack-architecture.png" width="60%" height="30%">
