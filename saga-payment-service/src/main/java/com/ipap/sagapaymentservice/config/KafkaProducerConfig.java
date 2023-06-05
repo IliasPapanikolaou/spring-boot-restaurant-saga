@@ -1,5 +1,7 @@
-package com.ipap.sagaorderservice.config;
+package com.ipap.sagapaymentservice.config;
 
+import com.ipap.sagacommonlibs.entity.OrderDao;
+import com.ipap.sagacommonlibs.entity.PaymentDao;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.beans.factory.annotation.Value;

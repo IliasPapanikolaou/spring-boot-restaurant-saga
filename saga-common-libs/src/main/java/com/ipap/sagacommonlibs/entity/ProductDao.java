@@ -1,4 +1,4 @@
-package com.ipap.sagaorderservice.entity;
+package com.ipap.sagacommonlibs.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

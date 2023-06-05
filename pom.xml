@@ -13,6 +13,7 @@
     <modules>
         <module>saga-common-libs</module>
         <module>saga-order-service</module>
+        <module>saga-payment-service</module>
     </modules>
 
     <properties>
@@ -44,6 +45,12 @@
             <artifactId>jackson-datatype-jsr310</artifactId>
             <version>2.13.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-json</artifactId>
+            <version>2.7.12</version>
+            <scope>compile</scope>
+        </dependency>
         <!-- gRPC server -->
         <dependency>
             <groupId>net.devh</groupId>
@@ -55,10 +62,10 @@
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
         </dependency>
-        <!-- Reactive MongoDB -->
+        <!-- MongoDB -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
         </dependency>
         <!-- Lombok -->
         <dependency>

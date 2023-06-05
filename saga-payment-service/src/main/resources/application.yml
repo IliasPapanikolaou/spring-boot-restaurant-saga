@@ -1,0 +1,12 @@
+grpc:
+  server:
+    port: 9089
+
+spring:
+  data:
+    mongodb:
+      database: payment-db
+      host: localhost
+      port: 27017
+  kafka:
+    bootstrap-servers: localhost:9092, localhost:9093, localhost:9094

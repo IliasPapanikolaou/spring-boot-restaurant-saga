@@ -1,7 +1,10 @@
 package com.ipap.sagaorderservice.repository;
 
-import com.ipap.sagaorderservice.entity.Order;
-import org.springframework.data.repository.reactive.ReactiveCrudRepository;
+import com.ipap.sagacommonlibs.entity.OrderDao;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface OrderRepository extends ReactiveCrudRepository<Order, String> {
+import java.util.Optional;
+
+public interface OrderRepository extends MongoRepository<OrderDao, String> {
+    Optional<OrderDao> findByOrderId(String orderId);
 }

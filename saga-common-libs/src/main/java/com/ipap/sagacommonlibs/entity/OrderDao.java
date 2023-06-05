@@ -1,4 +1,4 @@
-package com.ipap.sagaorderservice.entity;
+package com.ipap.sagacommonlibs.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.MongoId;
 @NoArgsConstructor
 @AllArgsConstructor
 @Document(collection = "order")
-public class Order {
+public class OrderDao {
 
     @MongoId
     private String id;
